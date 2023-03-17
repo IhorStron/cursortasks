@@ -1,0 +1,33 @@
+body{
+   min-width: 1170px;
+   
+   padding: 50px 150px 50px 100px;
+   
+   
+   
+}
+
+
+
+.logo {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   font-size: 40px;
+   
+}
+
+
+.logo li {
+   list-style-type: none;
+
+}
+
+hr{
+   height: 3px;
+  
+   background-image: linear-gradient(to right, blue, yellow );
+   
+   
+}
