@@ -17,7 +17,7 @@ button{
    border: none;
 }
 
-
+/* banner1 */
 /* -------------------------- */
 .header {
    font-family: 'Inter', sans-serif;
@@ -84,6 +84,7 @@ button{
    border-radius: 2px;
 } 
 
+/* banner2 */
 /* -------------------------- */
 .header_2{
    font-family: 'Inter', sans-serif;
@@ -138,6 +139,7 @@ button{
    text-decoration: underline;
 }
 
+/* banner3 */
 /* -------------------------- */
 
 
@@ -217,6 +219,7 @@ button{
    border-radius: 8px;
 }
 
+/* banner4 */
 /* -------------------------- */
 
 .section_2 {
@@ -270,6 +273,7 @@ button{
    border-radius: 8px
 }
 
+/* banner5 */
 /* -------------------- */
 
 .section_3{
@@ -354,6 +358,7 @@ button{
     border-radius: 6px;
 }
 
+/* banner6 */
 /* ---------------------- */
 
 
@@ -429,6 +434,7 @@ button{
     border-radius: 6px;
 }
 
+/* banner7 */
 /* ------------------------ */
 
 .banner3{
@@ -521,6 +527,7 @@ margin-bottom: 32px;
 
 }
 
+/* banner8 */
 /* ---------------- */
 
 .banner4{
