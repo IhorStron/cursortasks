@@ -78,7 +78,7 @@ top: 357px;
 
 
 
-/* .second{
+.second{
    position: absolute;
    width: 383px;
    height: 267px;
@@ -113,7 +113,7 @@ border-radius: 15px;
 }
 
 
-.section_2{
+/* .section_2{
    max-width: 1440px;
    height: 500px;
    background: #FFFFFF;
