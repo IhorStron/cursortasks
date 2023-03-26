@@ -266,7 +266,7 @@ option{
 
 
 
-/* .blocks{
+.blocks{
    margin-top: 85px;
    max-width: 1440px;
    height: 435px;
@@ -428,4 +428,4 @@ line-height: 22px;
 
 
 color: #101010;
-} */
+}
