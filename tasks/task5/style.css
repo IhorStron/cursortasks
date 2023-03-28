@@ -1,0 +1,85 @@
+body{
+   background-color: rgb(27, 25, 25);
+   color: rgb(187, 183, 178);
+   max-width: 1000px;
+   
+}
+
+.section_1{
+   
+   
+    
+
+}
+
+.trinagle-up{
+   width: 0;
+   height: 0;
+   border-left: 5px solid transparent;
+   border-right: 5px solid transparent;
+   border-top: 5px solid rgb(187, 183, 178);
+   float: right;
+   margin-right: 390px;
+   margin-top: 8px;
+}
+  
+
+
+
+.circle{
+   width: 7px;
+   height: 7px;
+   background-color: rgb(187, 183, 178);
+   border-radius: 50%;
+   
+}
+
+.circle_1{
+   display: flex;
+    flex-direction: row;
+    padding: 15px 9px 15px 5px;
+}
+
+.circle_2{
+   display: flex;
+    flex-direction: row;
+    padding: 15px 5px 15px 5px;
+}
+
+
+.circle_3{
+   display: flex;
+    flex-direction: row;
+    padding: 15px 5px 15px 5px;
+}
+
+table{
+   /* border-collapse: separate;
+   border-spacing: 5px;
+   background: rgb(27, 25, 25);
+   border: 1px solid rgb(187, 183, 178);
+   border-radius: 5px;
+   width: 100%; */
+   border: 2px solid rgb(187, 183, 178);
+    width: 100%;
+    border-spacing: 0;
+    border-radius: 10px;
+}
+
+table tr th{
+   text-align: left;
+   width: 50%;
+   padding-left: 20px;
+   padding-right: 20px;
+   color: rgb(187, 183, 178);
+}
+
+table tr{
+   height: 40px;
+}
+
+td{
+   border-top: 2px solid rgb(187, 183, 178);
+   padding-left: 20px;
+   padding-right: 20px;
+}
