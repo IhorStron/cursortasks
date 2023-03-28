@@ -2,8 +2,11 @@ body{
    background-color: rgb(27, 25, 25);
    color: rgb(187, 183, 178);
    max-width: 1000px;
+   margin: auto;
    
 }
+
+
 
 .section_1{
    
@@ -105,4 +108,24 @@ td{
    float: right;
    margin-right: 367px;
     margin-top: 9px;
+}
+
+.section_3{
+   margin-top: 50px;
+}
+
+img{
+   width: 18px;
+}
+
+.search{
+   float: right;
+   background: rgb(27, 25, 25);
+   border: 1px solid rgb(187, 183, 178);
+   border-radius: 4px;
+   color: rgb(187, 183, 178);
+   height: 30px;
+   padding-left: 10px;
+   
+   
 }
