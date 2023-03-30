@@ -1,0 +1,198 @@
+@import url('https://fonts.cdnfonts.com/css/avenir');
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
+
+
+
+.wrapper{
+   max-width: 1600px;
+   padding-left: 240px;
+   
+   background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+}
+
+.nav_1{
+   display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    font-family: 'Avenir', sans-serif;
+    cursor: pointer;
+}
+
+
+.navigator{
+   padding-top: 67px;
+}
+
+
+.photo_logo{
+   /* margin-right: 121px; */
+   /* padding-right: 121px; */
+}
+
+.logo_about{
+   padding: 0px 40px 0px 121px;
+   font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 160%;
+color: #212353;
+}
+
+
+.logo_help{
+   padding: 0px 40px 0px 40px;
+   font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+
+/* 1 */
+
+color: #4B5D68;
+}
+
+
+.logo_features{
+   padding: 0px 40px 0px 40px;
+   font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+
+/* 1 */
+
+color: #4B5D68;
+}
+
+
+.logo_signup{
+   padding: 0px 418px 0px 40px;
+   font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+
+/* 1 */
+
+color: #4B5D68;
+
+}
+
+
+
+
+
+.button_1{
+   cursor: pointer;
+   
+
+}
+
+.button1_2{
+   width: 210px;
+   height: 60px;
+   background: #FFFFFF;
+   box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+border-color: white;
+border-radius: 50px;
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 160%;
+color: #212353;
+padding-top: 17px;
+padding-bottom: 17px;
+
+}
+
+
+.button1_2 img {
+   padding-left: 20px;
+}
+
+
+.headline{
+   padding-top: 147px;
+   position: absolute;
+width: 645px;
+height: 464px;
+left: 240px;
+top: 240px;
+
+}
+
+/* .section_1{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   background-color: red;
+} */
+
+
+/* .headline{
+   padding-top: 240px;
+   display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+} */
+
+.headline h1{
+   width: 645px;
+   height: 184px;
+   font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 110%;
+color: #212353;
+} 
+
+.headline p{
+   width: 380px;
+height: 120px;
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+/* or 29px */
+
+
+/* 1 */
+
+color: #4B5D68;
+}
+
+.headline button{
+   width: 170px;
+height: 60px;
+font-family: 'Avenir';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 160%;
+color: #FFFFFF;
+background: #9C69E2;
+border-radius: 50px;
+border-color: #9C69E2;
+margin-top: 50px;
+}
+
+.image1 {
+   padding-top: 226px;
+   position: absolute;
+   width: 885px;
+   height: 468px;
+   left: 603px;
+   top: 336px;
+   
+   background: url(image1.png);
+
+}
