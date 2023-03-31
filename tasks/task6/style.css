@@ -73,7 +73,7 @@ color: #4B5D68;
 
 
 .logo_signup{
-   padding: 0px 418px 0px 40px;
+   padding: 0px 350px 0px 40px;
    font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -271,3 +271,82 @@ line-height: 160%;
 color: #4B5D68;
 text-align: center;
 }
+
+
+.section_4{
+   margin-top: 149px;
+}
+
+.section_4 h3{
+   width: 200px;
+   height: 50px;
+   font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 130%;
+color: #212353;
+}
+
+.section_4 p{
+   width: 220px;
+   height: 160px;
+   font-family: 'Avenir';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+color: #4B5D68;
+
+}
+
+.section_4 a{
+   width: 87px;
+   height: 26px;
+   font-family: 'Avenir';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 160%;
+color: #212353;
+text-decoration: none;
+}
+
+
+
+
+.blocks_section_4{
+display: flex;
+}
+
+.blocks_section_4 p{
+  margin-right: 150px;
+}
+
+.blocks_section_4 img{
+  margin-right: 30px;
+  margin-top: 45px;
+
+}
+
+.block_section4_2{
+   display: flex;
+   margin-top: 132px;
+}
+
+.block_section4_2 p{
+   margin-right: 150px;
+}
+
+.block_section4_2 img{
+   margin-right: 30px;
+  margin-top: 45px;
+}
+
+.arrow{
+   margin-left: 20px;
+}
+
+
+
+
