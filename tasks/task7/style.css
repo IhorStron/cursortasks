@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+.wrapper_1{
+   max-width: 1126px;
+   width: 100%;
+   margin: 0 auto;
+   background: #FFFFFF;
+}
+.header{
+   display: flex;
+   justify-content: space-between;
+}
+.lady_shop{
+   margin-top: 16px;
+   margin-bottom: 16px;
+}
+.lady_shop a{
+font-family: 'Rochester';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 41px;
+color: #1B2437;
+text-decoration: none;
+
+}
+.icons_1{
+margin-top: 29px;
+cursor: pointer;
+}
+.icons_2{
+margin-top: 25px;
+cursor: pointer;
+}
+.instagram{
+   margin: 0px 40px 0px 40px;
+}
+.buy{
+   margin: 0px 30px 0px 30px;
+}
+hr{
+   background: #F3F3F3;
+   height: 1px;
+   opacity: 0.2;
+}
+.wrapper_2{
+   max-width: 600px;
+   width: 100%;
+   margin: 0 auto;
+   background: #FFFFFF;
+}
+.navigator{
+   margin-top: 24px;
+   display: flex;
+    justify-content: space-between;
+}
+.navigator a{
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 37px;
+color: #000000;
+text-decoration: none;
+}
+.navigator a:hover{
+   color: pink;
+   
+}
+
+.wrapper_3{
+   margin-top: 20px;
+   padding: 103px 0 118px 0;
+    background: url(../task7/img/hero.svg) center center / cover no-repeat;
+}
+.block_head{
+   margin-left: 164px;
+}
+.block_head h1{
+   font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 67px;
+color: #FFFFFF;
+max-width: 361px;
+/* margin: 103px 914px 13px 164px; */
+}
+.block_head p{
+   font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #FFFFFF;
+max-width: 446px;
+/* margin: 0px 829px 34px 164px; */
+}
+.block_head button{
+   font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 30px;
+color: #FFFFFF;
+background: #1B2437;
+border-radius: 15px;
+padding: 23px 78px;
+max-width: 255px;
+/* margin-left:164px; */
+}
