@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
 
+button{
+   cursor: pointer;
+}
 .wrapper_1{
    max-width: 1126px;
    width: 100%;
@@ -137,16 +140,19 @@ margin-top: 34px;
    
 }
 .block_2{
+   cursor: pointer;
    grid-column: 2/2;
    grid-row: 1/1;
    background: url(../task7/img/Rectangle\ 14.svg) no-repeat
 }
 .block_3{
+   cursor: pointer;
    grid-column: 3/3;
    grid-row: 1/1;
    background: url(../task7/img/dresses_category.svg) no-repeat
 }
 .block_4{
+   cursor: pointer;
    grid-column: 2/4;
    grid-row: 2/2;
    background: url(../task7/img/denim_jackets_category.svg) no-repeat
@@ -289,4 +295,193 @@ padding-left: 54px;
 }
 .circles{
    padding: 0px 513px 24px 513px;
+   cursor: pointer;
+}
+.maylike{
+   font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 67px;
+    color: #1B2437;
+    margin: 0;
+    padding: 70px 0px;
+   
+}
+.section_3{
+   background: #F5F5F5;
+}
+/* .section_3 h3{
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 67px;
+color: #1B2437;
+
+} */
+.blocks_3{
+   display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.background_group1{
+   background: url(../task7/img/Mask\ Group.svg) no-repeat
+   
+}
+.background_group1 button{
+   background: #FFFFFF;
+opacity: 0.6;
+border: transparent;
+border-radius: 100px;
+margin: 16px 16px 210px 290px;
+}
+.background_group1 img{
+   padding: 8px 8px 5px 8px;
+}
+.maskGroup1{
+   max-width: 350px;
+   background: #FFFFFF;
+box-shadow: 2px 5px 45px rgba(237, 163, 181, 0.25);
+border-radius: 16px;
+
+
+}
+.maskGroup1 h3{
+ margin: 0;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 30px;
+color: #000000;
+}
+.maskGroup1 p{
+   font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+color: #000000;
+max-width: 300px;
+margin: 0;
+padding-top: 8px;
+padding-bottom: 27px;
+}
+.text_group1{
+   padding-left: 24px;
+}
+.text_group1 button{
+   font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 30px;
+color: #FFFFFF;
+background: #EDA3B5;
+border-radius: 15px;
+border: transparent;
+padding: 10px 25px;
+margin-bottom: 18px;
+}
+.text_group1 span{
+   font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 30px;
+color: #000000;
+padding-right: 88px;
+}
+.background_group2{
+   background: url(../task7/img/Mask\ Group2.svg);
+}
+.background_group2 button{
+   background: #FFFFFF;
+opacity: 0.6;
+border: transparent;
+border-radius: 100px;
+margin: 16px 16px 210px 290px;
+}
+.background_group2 img{
+   padding: 8px 8px 5px 8px;
+}
+.maskGroup2{
+   max-width: 350px;
+   background: #FFFFFF;
+box-shadow: 2px 5px 45px rgba(237, 163, 181, 0.25);
+border-radius: 16px;
+
+
+}
+.maskGroup2 h3{
+ margin: 0;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 30px;
+color: #000000;
+}
+.maskGroup2 p{
+   font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+color: #000000;
+max-width: 300px;
+margin: 0;
+padding-top: 8px;
+padding-bottom: 27px;
+}
+.text_group2{
+   padding-left: 24px;
+}
+.text_group2 button{
+   font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 30px;
+color: #FFFFFF;
+background: #1B2437;
+border-radius: 15px;
+border: transparent;
+padding: 10px 25px;
+margin-bottom: 18px;
+}
+.text_group2 span{
+   font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 30px;
+color: #000000;
+padding-right: 88px;
+}
+.background_group3{
+   background: url(../task7/img/Mask\ Group3.svg)no-repeat
+}
+.background_group3 button{
+   background: #FFFFFF;
+opacity: 0.6;
+border: transparent;
+border-radius: 100px;
+margin: 16px 16px 210px 290px;
+}
+.background_group3 img{
+   padding: 8px 8px 5px 8px;
+}
+.section_4{
+   background: #F5F5F5;
+}
+.block_map{
+   background: #FFFFFF;
+border-radius: 16px;
+}
+.block_map img{
+   width: 98%;
+   padding: 12px;
 }
