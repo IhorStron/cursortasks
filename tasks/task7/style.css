@@ -485,3 +485,32 @@ border-radius: 16px;
    width: 98%;
    padding: 12px;
 }
+.contacts{
+   margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   /* display: flex;
+   justify-content: space-around; */
+}
+.contacts a{
+   font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 30px;
+color: #000000;
+text-decoration: none;
+
+}
+.contacts img{
+   width: 33px;
+   padding: 0;
+   padding-bottom: 20px;
+}
+.address img{
+   padding-left: 15px;
+}
+.email img{
+   padding-left: 45px;
+}
