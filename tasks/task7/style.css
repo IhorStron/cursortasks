@@ -73,8 +73,14 @@ text-decoration: none;
    color: pink;
    
 }
-.section_1{
+main{
    background: #F5F5F5;
+}
+.section_1{
+   max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background: #F5F5F5;
 }
 .wrapper_3{
    max-width: 1440px;
@@ -130,7 +136,7 @@ margin-top: 34px;
 .blocks_1{
    display: grid;
    padding-top: 71px;
-   grid-template-columns: 445px 303px 303px 635px;
+   grid-template-columns: 445px 303px 303px;
    gap: 32px;
 }
 .block_1{
