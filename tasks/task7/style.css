@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=s1ap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
 
 button{
    cursor: pointer;
@@ -476,6 +477,8 @@ margin: 16px 16px 210px 290px;
 }
 .section_4{
    background: #F5F5F5;
+   padding-bottom: 70px;
+   
 }
 .block_map{
    background: #FFFFFF;
@@ -490,6 +493,7 @@ border-radius: 16px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-bottom: 25px;
    /* display: flex;
    justify-content: space-around; */
 }
@@ -501,6 +505,7 @@ font-size: 18px;
 line-height: 30px;
 color: #000000;
 text-decoration: none;
+padding-bottom: 25px;
 
 }
 .contacts img{
@@ -513,4 +518,94 @@ text-decoration: none;
 }
 .email img{
    padding-left: 45px;
+}
+
+
+.wrapper_5{
+   max-width: 1440px;
+   width: 100%;
+   margin: 0 auto;
+   
+}
+.container{
+   margin-top: 70px;
+   background: #FFFFFF;
+   display: flex;
+   justify-content: space-around;
+   padding-bottom: 50px;
+}
+.container a{
+   /* font-family: 'Playfair Display'; */
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 30px;
+color: #000000;
+text-decoration: none;
+}
+.container li{
+   font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 30px;
+color: #8E8E93;
+list-style: none;
+padding-top: 22px;
+cursor: pointer;
+}
+.container ul{
+   padding: 0;
+   margin: 0;
+}
+.shop{
+   max-width: 255px;
+}
+.shop h3{
+font-family: 'Rochester';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 41px;
+color: #1B2437;
+margin: 0;
+padding: 0;
+padding-bottom: 24px;
+cursor: pointer;
+
+}
+.shop p{
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+color: #5C5C5C;
+margin: 0;
+padding: 0;
+} 
+
+.container_2{
+   background: #E5E5EA;
+   display: flex;
+   justify-content: space-between;
+  
+   
+}
+.container_2 p{
+   margin: 0;
+   padding: 0;
+   font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 30px;
+color: #8E8E93;
+padding: 22px 0px 22px 165px;
+}
+.footer_icons{
+   margin: 0;
+   padding: 0;
+   padding: 28px 165px 28px 0px;
+   cursor: pointer;
 }
