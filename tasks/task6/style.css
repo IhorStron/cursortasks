@@ -1,16 +1,135 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+html {
+    height: 100%;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @import url('https://fonts.cdnfonts.com/css/avenir');
 @import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
 
-body{
-   display: flex;
-}
+
 
 .wrapper{
   
-   padding-left: 190px;
-   padding-right: 190px;
-   background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
+   margin: auto;
+    max-width: 1117px;
+   /* background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%); */
 }
+
+.content{
+   display: flex;
+   align-items: center;
+   
+}
+.navigator_main a{
+   text-decoration: none;
+   font-family: 'Avenir';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+color: #4B5D68;
+}
+.navigator_main{
+   margin-right: 420px;
+    margin-left: 121px;
+}
+.navigator_main a:hover{
+   color: #212353;
+}
+.navigator_main ul {
+display: flex;
+gap: 40px;
+text-decoration: none;
+}
+.content button{
+   font-family: 'Avenir';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 160%;
+display: flex;
+align-items: center;
+letter-spacing: 0.005em;
+color: #212353;
+background: #FFFFFF;
+box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+border-radius: 50px;
+border: transparent;
+padding: 17px 30px 17px 29px;
+
+
+}
+.content button img {
+   margin-left: 20px;
+}
+/* .navigator_main li{
+   
+} */
 
 .nav_1{
    display: flex;
@@ -134,15 +253,18 @@ top: 240px;
 } */
 
 .section_1{
-   display: flex;
-   flex-direction: row;
-   align-items: center;
+   background: url(../task6/img/image1\ 1.svg) no-repeat;
+   background-position-x: 590px;
+    background-position-y: 194px;
    
+}
+.image1{
+   margin-left: -190px; 
 }
 
 
 .headline{
-   padding-top: 240px;
+   padding-top: 145px;
    display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -198,6 +320,9 @@ cursor: pointer;
    margin-top: 300px;
 }
 
+.section1_class{
+   display: flex;
+}
 
 
 .section_2{
