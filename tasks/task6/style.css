@@ -626,6 +626,9 @@ padding: 17px 20px 17px 29px;
     justify-content: space-between;
 }
 
+.footer_2 li{
+   cursor: pointer;
+}
 
 
 

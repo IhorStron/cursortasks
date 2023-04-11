@@ -6,6 +6,9 @@
 button{
    cursor: pointer;
 }
+body{
+   margin: 0 auto;
+}
 .wrapper_1{
    max-width: 1126px;
    width: 100%;
@@ -32,14 +35,15 @@ text-decoration: none;
 }
 .icons_1{
 margin-top: 29px;
-cursor: pointer;
+
 }
 .icons_2{
 margin-top: 25px;
-cursor: pointer;
+
 }
 .instagram{
    margin: 0px 40px 0px 40px;
+   
 }
 .buy{
    margin: 0px 30px 0px 30px;
@@ -77,16 +81,13 @@ main{
    background: #F5F5F5;
 }
 .section_1{
-   max-width: 1440px;
-    width: 100%;
-    margin: 0 auto;
-    background: #F5F5F5;
+   padding: 103px 0 118px 0;
+   margin-top: 19px;
+    background: url(../task7/img/hero.svg) center center / cover no-repeat;
 }
 .wrapper_3{
-   max-width: 1440px;
-   margin-top: 20px;
-   padding: 103px 0 118px 0;
-    background: url(../task7/img/hero.svg) center center / cover no-repeat;
+   margin: 0 auto;
+    max-width: 1110px;
 }
 .block_head{
    margin-left: 164px;
@@ -540,7 +541,7 @@ padding-bottom: 25px;
    justify-content: space-around;
    padding-bottom: 50px;
 }
-.container a{
+.container h4{
    /* font-family: 'Playfair Display'; */
 font-style: normal;
 font-weight: 900;
@@ -548,6 +549,8 @@ font-size: 18px;
 line-height: 30px;
 color: #000000;
 text-decoration: none;
+margin: 0;
+padding: 0;
 }
 .container li{
    font-family: 'Mulish';
@@ -557,7 +560,7 @@ font-size: 16px;
 line-height: 30px;
 color: #8E8E93;
 list-style: none;
-padding-top: 22px;
+margin-top: 22px;
 cursor: pointer;
 }
 .container ul{
@@ -578,6 +581,7 @@ margin: 0;
 padding: 0;
 padding-bottom: 24px;
 cursor: pointer;
+width: fit-content;
 
 }
 .shop p{
@@ -613,5 +617,5 @@ padding: 22px 0px 22px 165px;
    margin: 0;
    padding: 0;
    padding: 28px 165px 28px 0px;
-   cursor: pointer;
+   
 }
