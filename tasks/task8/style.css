@@ -12,15 +12,16 @@ body {
 }
 .blocks_container{
    margin: 0 auto;
-   /* width: 50%; */
+   justify-items: center;
    display: grid;
    grid-template-columns: repeat(4, 1fr);
-   grid-template-rows: repeat(6, 1fr);
    grid-gap: 30px;
    margin-bottom: 100px;
-   justify-items: center;
 }
 
-.block:nth-child(){
+.block:nth-child(4n-1){
    background-color: red;
+}
+.block:nth-child(20n+4){
+   background-color: blue;
 }

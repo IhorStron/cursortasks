@@ -136,9 +136,10 @@ margin-top: 34px;
 }
 .blocks_1{
    display: grid;
-   padding-top: 71px;
-   grid-template-columns: 445px 303px 303px;
-   gap: 32px;
+    padding-top: 71px;
+    grid-template-columns: 445px 303px 303px;
+    grid-template-rows: 225px 210px;
+    gap: 32px;
 }
 .block_1{
   cursor: pointer;
@@ -167,7 +168,7 @@ margin-top: 34px;
 }
 
 .block_1_text{
-padding: 268px 125px 100px 32px;
+margin: 268px 125px 100px 32px;
 }
 .block_1_text h2{
    font-family: 'Playfair Display';
@@ -244,7 +245,7 @@ padding: 53px 0px 52px 22px;
 }
 .block_4_text{
 padding: 64px 332px 65px 22px;
-margin-bottom: 100px;
+
 }
 
 .block_4_text p{
@@ -274,6 +275,7 @@ display: grid;
     grid-template-columns: 255px 255px 255px 255px;
     grid-template-rows: 255px;
     gap: 25px;
+    margin-top: 50px;
 }
 .blocks_2 a{
    font-family: 'Mulish';
@@ -302,7 +304,7 @@ padding-left: 54px;
    cursor: pointer;
 }
 .circles{
-   padding: 0px 513px 24px 513px;
+   margin: 0px 513px 24px 513px;
    cursor: pointer;
 }
 .maylike{
