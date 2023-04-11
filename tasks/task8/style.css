@@ -22,6 +22,57 @@ body {
 .block:nth-child(4n-1){
    background-color: red;
 }
-.block:nth-child(20n+4){
+.block:nth-child(n+21){
    background-color: blue;
+}
+
+button{
+   margin: 0 auto;
+   font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+background: #44D3A8;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 100px;
+border: transparent;
+padding: 30px 70px;
+cursor: pointer;
+position: relative;
+}
+
+button::after, button::before{
+   content: '';
+   border-top: 2px solid #C4C4C4;
+    border-bottom: 2px solid #C4C4C4;
+    width: 200px;
+    height: 8px;
+    position: absolute;
+    
+}
+button::before{
+   left: -250px;
+}
+button::after{
+right: -250px;
+}
+
+button:hover{
+   background: #359b7c;
+   transition: 0.5s
+}
+button:hover::after{
+   border-top: 2px solid #359b7c;
+   border-bottom: 2px solid #359b7c;
+   transition: 0.5s
+}
+button:hover::before{
+   border-top: 2px solid #359b7c;
+   border-bottom: 2px solid #359b7c;
+   transition: 0.5s
 }
