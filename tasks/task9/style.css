@@ -54,6 +54,7 @@ body{
 button{
    cursor: pointer;
 }
+/* section 1 */
 .container{
    margin: 0 auto;
    max-width: 1440px;
@@ -163,4 +164,71 @@ margin: 0;
    display: flex;
    column-gap: 35px;
    margin-bottom: 164px;
+}
+/* section 2 */
+.container_2{
+   margin: 0 auto;
+   max-width: 1440px;
+}
+.section_block1{
+   display: flex;
+   column-gap: 71px;
+}
+.img_section2{
+   background: linear-gradient(270deg, #FFFFFF 5.16%, rgba(255, 255, 255, 0) 67.14%), rgba(255, 255, 255, 0.5)  url(../task9/img/Rectangle.png) no-repeat  ;
+   width: 25%;
+   display: flex;
+   align-items: center;
+   padding: 109px 176px 77px 163px;
+  
+   
+}
+
+
+.football_1{
+position: relative;
+right: 80px;
+bottom: 85px;
+z-index: 1;
+
+}
+.football_2{
+position: relative;
+right: 360px;
+top: 80px;
+
+}
+
+.text_section_2{
+   margin: 133px 217px 117px 0;
+   
+}
+
+.text_section_2 span{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+color: #00ADEE;
+}
+.text_section_2 h2{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 37px;
+color: #333333;
+margin: 27px 0 27px 0;
+}
+.text_section_2 p{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+color: #4F4F4F;
+margin-top: 35px;
+margin-bottom: 22px;
+
 }
