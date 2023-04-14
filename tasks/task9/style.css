@@ -48,9 +48,7 @@ table {
 @import url('https://fonts.cdnfonts.com/css/product-sans');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
-body{
-   /* font-family: 'Lato', sans-serif; */
-}
+
 button{
    cursor: pointer;
 }
@@ -230,5 +228,56 @@ line-height: 23px;
 color: #4F4F4F;
 margin-top: 35px;
 margin-bottom: 22px;
+}
+/* section 3 */
+.container_3{
+   margin: 0 auto;
+   max-width: 1440px;
+   background: url(../task9/img/phone_circke_back.png) 100% no-repeat;
+}
+
+.block_section3{
+   padding: 217px 0 171px 162px;
+   max-width: 495px;
+}
+.block_section3 span{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+color: #00ADEE;
 
 }
+.block_section3 a{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+color: #00ADEE; 
+text-decoration: none;
+margin-bottom: 170px;
+
+}
+.block_section3 h2{
+font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 37px;
+color: #333333;
+margin-top: 27px;
+
+}
+.block_section3 p{
+   font-family: 'Lato', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 23px;
+   color: #4F4F4F;
+   margin-bottom: 30px;
+   margin-top: 30px;
+}
+
