@@ -407,3 +407,28 @@ padding: 20px 124px 23px 11px;
 circle{
    cursor: pointer;
 }
+/* section 6 */
+
+.container_6{
+   margin: 0 auto;
+   max-width: 1440px;
+   text-align: center;
+   background: #FAFAFA;
+}
+.link_3{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 37px;
+color: #333333;
+padding: 57px 0 57px 0;
+}
+.logos{
+   padding-bottom: 70px;
+   display: flex;
+   padding: 0 180px 80px 180px;
+   column-gap: 85px;
+}
+
+}
