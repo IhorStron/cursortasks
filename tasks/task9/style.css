@@ -233,7 +233,7 @@ margin-bottom: 22px;
 .container_3{
    margin: 0 auto;
    max-width: 1440px;
-   background: url(../task9/img/phone_circke_back.png) 100% no-repeat;
+   background: url(../task9/img/phone_circke_back.png)  no-repeat;
 }
 
 .block_section3{
@@ -281,3 +281,129 @@ margin-top: 27px;
    margin-top: 30px;
 }
 
+/* section 4 */
+
+.container_4{
+   margin: 0 auto;
+   max-width: 1440px;
+   background: url(../task9/img/section4_background.png)no-repeat;
+}
+.title{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 37px;
+color: #FFFFFF;
+text-align: center;
+padding: 76px 0 58px 0;
+}
+.grid_content{
+   display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 87px;
+    grid-row-gap: 50px;
+    padding: 0px 166px 66px 164px;
+}
+.content ul li{
+font-family: 'Lato',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+color: #FFFFFF;
+}
+.content ul li::before{
+   content: "•";
+   color: #FFFFFF;
+   padding-right: 5px;
+}
+
+/* section 5 */
+
+.container_5{
+   margin: 0 auto;
+   max-width: 1440px;
+}
+.link_2{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 37px;
+color: #333333;
+margin: 68px 0 63px 0;
+text-align: center;
+}
+.slider{
+   position: relative;
+   display: flex;
+    justify-content: space-evenly;
+}
+.arrows{
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+}
+.arrows button{
+   background: #FFFFFF;
+border: 1px solid #00ADEE;
+box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25), 0px 5px 10px rgba(0, 0, 0, 0.1);
+border-radius: 100%;
+}
+.arrow_size{
+   padding: 10px;
+}
+.arrow-left{
+   left: 15px;
+}
+.arrow-right{
+   right: 15px;
+}
+.block_reviews{
+   display: inline-flex;
+   overflow: auto;
+   height: 180px;
+   width: 335px;
+   min-width: 300px;
+   border: 1px solid #828282;
+border-radius: 4px;
+}
+.hidden1_flex{
+   display: flex;
+}
+.hidden_1{
+   padding: 15px 13px 24px 17px;
+}
+.hidden_1 p{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #4F4F4F;
+}
+.hidden_1 h2{
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: #333333;
+padding: 20px 124px 23px 11px;
+
+}
+.hidden1_flex img{
+   padding: 15px 0 18px 0;
+}
+.twitter{
+   padding-top: 22px;
+}
+.circle_section5{
+   display: flex;
+   justify-content: center;
+   margin: 50px 0 50px 0;
+}
+circle{
+   cursor: pointer;
+}
