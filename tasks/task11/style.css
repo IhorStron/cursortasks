@@ -1,0 +1,136 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-9');
+
+body{
+   font-family: 'Helvetica Neue', sans-serif;
+}
+.search{
+   max-width: 220px;
+   position: relative;
+   
+}
+.insta{
+   padding-right: 250px;
+}
+
+.input_search{
+   text-align: center;
+}
+
+.search::before{
+   content: '';
+    width: 18px;
+    height: 18px;
+    background: url(../task11/img/search.svg) no-repeat;
+    display: inline-block;
+    margin-right: 5px;
+    position: absolute;
+    top: 42%;
+    left: 26%;
+    
+}
+
+.content{
+   max-width: 1000px;
+   margin: 0 auto;
+}
+
+.button_1{
+  padding: 5px 25px;
+  border-radius: 3px;
+  background: #4094EF;
+  border: transparent;
+  font-style: normal;
+font-weight: 700;
+font-size: 14px;
+}
+.button_2{
+   padding: 4px 10px 4px 10px;
+   border-radius: 3px;
+   border: transparent;
+   background: #4094EF;
+}
+
+.dot{
+	width: 3px;
+	height: 3px;
+	background: #262626;
+	display: inline-block;
+	border-radius: 50%;
+}
+.dots_button {
+	background: transparent !important;
+	border: 0 !important;
+    transition: all 0.5s;
+}
+.dots_button:hover{
+    background: #0d6efd !important;
+	border: 1px solid #0d6efd !important;
+}
+.dots_button:hover .dot{
+	background-color: #fff;
+}
+
+.link{
+   color: #133768;
+   text-decoration: none;
+}
+
+.avatar_mini-img{
+   box-shadow: 0 0 0 1px #DBDBDB;
+	border: 4px solid #fff;
+	border-radius: 50%;
+}
+
+.tagged-btn {
+	color: #8F8F8F;
+	border:0;
+	background:transparent;
+}
+
+.post-btn {
+	position: relative;
+	border:0;
+	background:transparent;
+}
+
+.post-btn::before {
+	content: '';
+	background: url(./img/post-before.svg);
+	width: 11px;
+	height: 11px;
+	display: inline-block;
+	margin-right: 5px;
+}
+.post-btn::after {
+	content: '';
+	width: 100%;
+	height: 1px;
+	background: #262626;
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	top: -17px;
+}
+.tagged-btn::before {
+	content: '';
+	background: url(./img/target-before.svg);
+	width: 11px;
+	height: 11px;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.switch{
+   text-align: center!important;
+}
+
+.grid_block_1{
+   display: flex;
+    justify-content: space-around;
+    
+}
+.photo_grid img{
+   width: 100%;
+   height: 450px;
+   
+}
