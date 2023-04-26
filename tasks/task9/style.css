@@ -396,7 +396,7 @@ column-gap: 267px;
    .img_section2{
       /* background: linear-gradient(-270deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)), url(../task9/img/main-back.jpeg) top left/contain no-repeat; */
       background: url(../task9/img/Rectangle.png) no-repeat;
-      width: 17%;
+      width: 18%;
     display: flex;
     align-items: center;
     padding: 109px 176px 77px 163px;
@@ -891,13 +891,12 @@ margin-bottom: 50px;
    }
 
    @media (max-width: 1300px){
-      .container_7{
-         height: 640px;
-      }
       .lastphoto{
-         min-width: 437px;
-         min-height: 639px;
-}
+        height: 100%;
+      }
+      .container_7{
+         column-gap: 200px;
+      }
       }
    
 
@@ -919,7 +918,7 @@ margin-bottom: 50px;
          padding: 20px 20px 30px 20px;
       }
       .lastphoto{
-         max-width: 400px;
+         max-width: 345px;
       }
    }
    /* footer */
@@ -986,6 +985,9 @@ color: #FFFFFF;
 
 
 @media (max-width: 720px){
+   
+   
+   
    .content_footer{
       padding: 45px 20px;
     display: flex;
