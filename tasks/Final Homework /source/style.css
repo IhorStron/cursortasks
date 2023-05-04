@@ -28,8 +28,9 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .section_1 {
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, rgba(10, 30, 39, 0.56)), to(rgba(10, 30, 39, 0))), url(../img/mainBackground.png) no-repeat;
-  background: linear-gradient(0deg, rgba(10, 30, 39, 0.56) 10%, rgba(10, 30, 39, 0)), url(../img/mainBackground.png) no-repeat;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(10%, rgba(10, 30, 39, 0.56)), to(rgba(10, 30, 39, 0))), url(../img/mainBackground.png) center no-repeat;
+  background: linear-gradient(0deg, rgba(10, 30, 39, 0.56) 10%, rgba(10, 30, 39, 0)), url(../img/mainBackground.png) center no-repeat;
+  background-size: 100%;
 }
 
 .container_1 {
@@ -48,7 +49,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .block1_section1 {
-  padding: 0 0 340px 92px;
+  padding: 0 0 186px 92px;
   max-width: 470px;
 }
 .block1_section1 h2 {
@@ -102,6 +103,14 @@ footer, header, hgroup, menu, nav, section {
   background: #0c171f;
 }
 
+.blocks_section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  padding-top: 100px;
+}
+
 .under_number01 {
   font-family: "Poppins";
   font-style: normal;
@@ -109,10 +118,13 @@ footer, header, hgroup, menu, nav, section {
   font-size: 180px;
   line-height: 150%;
   color: rgba(255, 255, 255, 0.13);
+  position: absolute;
+  margin-left: 93px;
 }
 
 .block1_section2 {
   max-width: 565px;
+  margin: 150px 0 0 250px;
 }
 .block1_section2 span {
   font-family: "Poppins";
@@ -131,7 +143,6 @@ footer, header, hgroup, menu, nav, section {
   display: inline-block;
   margin: 0px 6px 5px 0;
   position: relative;
-  top: -50%;
 }
 .block1_section2 h2 {
   font-family: "Playfair Display";
@@ -140,6 +151,7 @@ footer, header, hgroup, menu, nav, section {
   font-size: 70px;
   line-height: 70px;
   color: #FFFFFF;
+  margin-bottom: 20px;
 }
 .block1_section2 p {
   font-family: "Poppins";
