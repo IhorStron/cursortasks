@@ -48,7 +48,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .block1_section1 {
-  padding: 0 0 485px 92px;
+  padding: 0 0 340px 92px;
   max-width: 470px;
 }
 .block1_section1 h2 {
@@ -96,4 +96,56 @@ footer, header, hgroup, menu, nav, section {
 .block1_section1 button:hover {
   background: #fff;
   color: #0a1e27;
+}
+
+.section_2 {
+  background: #0c171f;
+}
+
+.under_number01 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 180px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.13);
+}
+
+.block1_section2 {
+  max-width: 565px;
+}
+.block1_section2 span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.24em;
+  color: #D3BA74;
+}
+.block1_section2 span::before {
+  content: "";
+  width: 51px;
+  height: 2px;
+  background: #d3ba74;
+  display: inline-block;
+  margin: 0px 6px 5px 0;
+  position: relative;
+  top: -50%;
+}
+.block1_section2 h2 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 70px;
+  color: #FFFFFF;
+}
+.block1_section2 p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.8);
 }
