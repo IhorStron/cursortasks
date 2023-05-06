@@ -506,6 +506,10 @@ footer {
 
    }
 
+   .section_4{
+      background-size: auto;
+   }
+
    .container {
       max-width: 1126px;
       width: 100%;
@@ -629,6 +633,9 @@ footer {
       padding-right: 140px;
    }
 
+   .section_4{
+      background-size: auto;
+   }
 
 }
 
@@ -636,12 +643,20 @@ footer {
    .header_logo_button button {
       margin: 0;
       padding: 3px 50px;
-
-
+   }
+   .section_4{
+      background-size: auto;
    }
 }
 
 @media (max-width: 720px) {
+   
+   
+   .section_4{
+      background-size: auto;
+   }
+   
+   
    .header_content {
 
 
